@@ -26,5 +26,12 @@
     "name": "8 Pro",
     "variant": "userdebug",
     "vendor": "oneplus"
+  },
+  "pstar": {
+    "branch": "lineage-22.1",
+    "lineage_recovery": false,
+    "name": "edge 20 pro",
+    "variant": "userdebug",
+    "vendor": "motorola"
   }
 }
