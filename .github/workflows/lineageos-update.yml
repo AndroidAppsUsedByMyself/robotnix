@@ -1,0 +1,32 @@
+name: "Update LineageOS"
+
+on: { schedule: [{ cron: '0 0 * * 0' }], workflow_dispatch }
+
+jobs:
+  updates:
+    name: "Update LineageOS"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.5
+    - uses: cachix/install-nix-action@v17
+      with:
+        extra_nix_config: |
+          access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+    - name: "Update"
+      run: |
+        for branch in lineage-22.1; do
+            nix develop -c ./flavors/lineageos/update.sh "$branch"
+        done
+    - name: "Create Pull Request"
+      id: cpr
+      uses: peter-evans/create-pull-request@v3.10.1
+      with:
+        commit-message: "LineageOS: update"
+        title: "LineageOS: update"
+        branch: "lineageos-update"
+        delete-branch : true
+        labels: "automated"
+    - name: "Check outputs"
+      run: |
+        echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+        echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
