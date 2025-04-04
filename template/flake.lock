@@ -115,15 +115,15 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1743083436,
-        "narHash": "sha256-VgKIcQIgRxlcXm81Wa/EghJKB8sLu4Adnua1jGMQjmY=",
-        "owner": "danielfullmer",
+        "lastModified": 1743800841,
+        "narHash": "sha256-fleylhbJxjYyQj/BvTvYdxn8j/F5inxaCVMcPgGiClo=",
+        "owner": "AndroidAppsUsedByMyself",
         "repo": "robotnix",
-        "rev": "9143e19766de7dd3bbf01e2cb5b2718c6208c37f",
+        "rev": "f670b65f5c6e488bab7bf13913beb104aeb3ca78",
         "type": "github"
       },
       "original": {
-        "owner": "danielfullmer",
+        "owner": "AndroidAppsUsedByMyself",
         "repo": "robotnix",
         "type": "github"
       }
