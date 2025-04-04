@@ -11,30 +11,6 @@
     "sha256": "19z98i0380jw8isblaga85qagpy4p5ffg15m2s556hcfnz0qd684",
     "url": "https://github.com/TheMuppets/proprietary_vendor_fairphone_FP4"
   },
-  "vendor/motorola/pstar": {
-    "date": "2025-02-23T20:27:41-05:00",
-    "deepClone": false,
-    "fetchLFS": true,
-    "fetchSubmodules": false,
-    "hash": "sha256-vJBiUOsSNgLsnU1Ipa4IUNwkf3GHeNf46cMtH7L5E0g=",
-    "leaveDotGit": false,
-    "path": "/nix/store/j0lf9bfs0z8j68bs41gxf9d287dgqshn-proprietary_vendor_motorola_pstar",
-    "rev": "d61e53c09c871dfd7f7b49d199824a83df5e0d9e",
-    "sha256": "0j0kz6r1ybf3x7wdfy47f5zj9p2h12paaj2dkpn04dhjxd86545w",
-    "url": "https://github.com/TheMuppets/proprietary_vendor_motorola_pstar"
-  },
-  "vendor/motorola/sm8250-common": {
-    "date": "2025-02-23T20:26:20-05:00",
-    "deepClone": false,
-    "fetchLFS": true,
-    "fetchSubmodules": false,
-    "hash": "sha256-BuZwtsy2GHQqcR6jW5QZCBIghgfbQbHOnMehnmAG1+s=",
-    "leaveDotGit": false,
-    "path": "/nix/store/7kv5lykvgi91jrpanlaplbmalxcyxlw6-proprietary_vendor_motorola_sm8250-common",
-    "rev": "4aa43a05b05c1eaa0dcf899ea1c276b88cb8b519",
-    "sha256": "1syp0rh9x8f7kk7b2hfv0y3204h836a5p8qyf4m7865nrjv71rh6",
-    "url": "https://github.com/TheMuppets/proprietary_vendor_motorola_sm8250-common"
-  },
   "vendor/oneplus/cheeseburger": {
     "date": "2025-01-07T20:31:57+01:00",
     "deepClone": false,
