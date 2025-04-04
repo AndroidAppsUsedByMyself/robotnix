@@ -31,8 +31,8 @@
       # If you make new changes to your build that you want to be pushed by the OTA updater, you should set this yourself.
       # buildDateTime = 1584398664; # Use `date "+%s"` to get the current time
 
-      # signing.enable = true;
-      # signing.keyStorePath = "/var/secrets/android-keys"; # A _string_ of the path for the key store.
+      signing.enable = true;
+      signing.keyStorePath = "/etc/secrets/android-keys"; # A _string_ of the path for the key store.
 
       # Build with ccache
       # ccache.enable = true;

@@ -34,7 +34,7 @@ jobs:
       with:
         commit-message: "LineageOS(${{ matrix.branch }}): Auto Update"
         title: "[LineageOS ${{ matrix.branch }}] System Update"
-        branch: "lineageos-update/${{ matrix.branch }}-$(date +%s)"
+        branch: "lineageos-update/${{ matrix.branch }}"
         delete-branch: true
         labels: "automated,lineageos"
 
