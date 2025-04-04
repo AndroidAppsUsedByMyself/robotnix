@@ -40,6 +40,8 @@ jobs:
 
     - name: Build
       run: |
+        # Workaround GitHub Actions timeout
+        (while true; do date; sleep 60; done) &
         cd template
         nix build .#"robotnixConfigurations.${{ matrix.device }}_${{ matrix.system }}.img" -o "${{ matrix.device }}_${{ matrix.system }}"
 
