@@ -22,7 +22,7 @@
       # Build with ccache
       # ccache.enable = true;
     });
-    robotnixConfigurations."pstar" = robotnix.lib.robotnixSystem ({ config, pkgs, ... }: {
+    robotnixConfigurations."pstar_lineageos" = robotnix.lib.robotnixSystem ({ config, pkgs, ... }: {
       # These two are required options
       device = "pstar";
       flavor = "lineageos";
@@ -41,6 +41,6 @@
     # This provides a convenient output which allows you to build the image by
     # simply running "nix build" on this flake.
     # Build other outputs with (for example): "nix build .#robotnixConfigurations.dailydriver.ota"
-    defaultPackage.x86_64-linux = self.robotnixConfigurations."pstar".img;
+    defaultPackage.x86_64-linux = self.robotnixConfigurations."pstar_lineageos".img;
   };
 }
