@@ -41,7 +41,7 @@ jobs:
     - name: Build
       run: |
         cd template
-        nix build .#"${{ matrix.device }}_${{ matrix.system }}" -o "${{ matrix.device }}_${{ matrix.system }}"
+        nix build .#"robotnixConfigurations.${{ matrix.device }}_${{ matrix.system }}.img" -o "${{ matrix.device }}_${{ matrix.system }}"
 
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v4
