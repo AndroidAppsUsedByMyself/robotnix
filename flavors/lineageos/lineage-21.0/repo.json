@@ -10813,13 +10813,13 @@
     "url": "https://github.com/LineageOS/cm_crowdin"
   },
   "lineage/hudson": {
-    "dateTime": 1743723039,
+    "dateTime": 1743895842,
     "groups": [
       "infra"
     ],
-    "rev": "87afb474e74d1bafccf4d63cbb3719fd7fd397e7",
+    "rev": "04f08293262cc2983fb652b6bdf16844bd958642",
     "revisionExpr": "main",
-    "sha256": "03qk3r0z0il9dc6sxx95ily79yxsl2z0kp0kn61iwa92njc6kg7y",
+    "sha256": "0vdvyb6cw5pr1i2fkj3n2iiqvs7yd4fcvv8j3w13pf90w9vkgdc1",
     "url": "https://github.com/LineageOS/hudson"
   },
   "lineage/mirror": {
@@ -10833,13 +10833,13 @@
     "url": "https://github.com/LineageOS/mirror"
   },
   "lineage/scripts": {
-    "dateTime": 1743161597,
+    "dateTime": 1743896008,
     "groups": [
       "tools"
     ],
-    "rev": "e7e5cd69d02be7f1814c8831c65df57c45c6b494",
+    "rev": "d096ced2792558f068581c54280c1ebff2646a99",
     "revisionExpr": "main",
-    "sha256": "0is54j5mxv8qhd0c3bqm8pxs9v43n4qpwm5dxwsyay6plj25hy8x",
+    "sha256": "10gkwcxrb2a64khl0qcmqq72bjzshlchpvbsr3izpnyn692gs4gq",
     "url": "https://github.com/LineageOS/scripts"
   },
   "lineage/website": {
