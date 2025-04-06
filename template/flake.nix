@@ -36,7 +36,7 @@
 
       # Build with ccache
       ccache.enable = true;
-      lindroid.enable = true;
+      lindroid.enable = false;
     });
 
     # This provides a convenient output which allows you to build the image by
