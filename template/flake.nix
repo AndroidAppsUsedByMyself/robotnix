@@ -36,7 +36,8 @@
 
       # Build with ccache
       ccache.enable = true;
-      lindroid.enable = false;
+      lindroid.enable = true;
+      lindroid.systemVersion = "LineageOS_22.1";
     });
 
     # This provides a convenient output which allows you to build the image by
