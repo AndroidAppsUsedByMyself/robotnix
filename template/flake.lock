@@ -115,18 +115,14 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1743800841,
-        "narHash": "sha256-fleylhbJxjYyQj/BvTvYdxn8j/F5inxaCVMcPgGiClo=",
-        "owner": "AndroidAppsUsedByMyself",
-        "repo": "robotnix",
-        "rev": "f670b65f5c6e488bab7bf13913beb104aeb3ca78",
-        "type": "github"
+        "path": "..",
+        "type": "path"
       },
       "original": {
-        "owner": "AndroidAppsUsedByMyself",
-        "repo": "robotnix",
-        "type": "github"
-      }
+        "path": "..",
+        "type": "path"
+      },
+      "parent": []
     },
     "root": {
       "inputs": {

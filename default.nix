@@ -72,6 +72,7 @@ let
       ./modules/signing.nix
       ./modules/source.nix
       ./modules/webview.nix
+      ./modules/lindroid.nix
     ];
   });
 
