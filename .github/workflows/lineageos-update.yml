@@ -10,6 +10,8 @@ jobs:
     strategy:
       matrix:
         include:
+          - branch: "lineage-22.2"
+            flavor: "lineageos"
           - branch: "lineage-22.1"
             flavor: "lineageos"
           - branch: "lineage-21.0"
