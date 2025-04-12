@@ -24,8 +24,10 @@ let
           _module.args = let
             apks = import ./apks { pkgs = finalPkgs; };
             robotnixlib = import ./lib lib;
+            nvfetcherLoader = pkgs.callPackage ./nvfetcher/nvfetcher-loader.nix { };
+            sources = nvfetcherLoader ./_sources/generated.nix;
           in {
-            inherit apks lib robotnixlib;
+            inherit apks lib robotnixlib sources;
             pkgs = finalPkgs;
           };
         };

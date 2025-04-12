@@ -1,0 +1,86 @@
+{
+    "external_lxc": {
+        "cargoLocks": null,
+        "date": "2024-11-24",
+        "extract": null,
+        "name": "external_lxc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Linux-on-droid",
+            "repo": "external_lxc",
+            "rev": "4e3a3630fff3dc04e0d4a761309f87f248e40b17",
+            "sha256": "sha256-lh/YEh1ubAW51GKFZiraQZqbGGkdT6zuSVunDRAaKbE=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "4e3a3630fff3dc04e0d4a761309f87f248e40b17"
+    },
+    "libhybris": {
+        "cargoLocks": null,
+        "date": "2024-10-14",
+        "extract": null,
+        "name": "libhybris",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Linux-on-droid",
+            "repo": "libhybris",
+            "rev": "419f3ff6736e01cb0e579f65a34c85cfa7de578b",
+            "sha256": "sha256-h9QmJ/uZ2sHMGX3/UcxD+xe/myONacKwoBhmn0RK5sI=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "419f3ff6736e01cb0e579f65a34c85cfa7de578b"
+    },
+    "vendor_lindroid_21": {
+        "cargoLocks": null,
+        "date": "2024-11-24",
+        "extract": null,
+        "name": "vendor_lindroid_21",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Linux-on-droid",
+            "repo": "vendor_lindroid",
+            "rev": "448abc3c437d5101cf42770045fe8796efdf28ed",
+            "sha256": "sha256-bmDeDe23VX9M74rfAOuYJWTkkZ5No8o10j5q2XKgGkk=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "448abc3c437d5101cf42770045fe8796efdf28ed"
+    },
+    "vendor_lindroid_22_1": {
+        "cargoLocks": null,
+        "date": "2025-04-12",
+        "extract": null,
+        "name": "vendor_lindroid_22_1",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Linux-on-droid",
+            "repo": "vendor_lindroid",
+            "rev": "d7c9e416b3de6ba3e06f07c553a2390ae14054fe",
+            "sha256": "sha256-KvIedX6Nhta77AGPJcgHW/1zJS/9Vaajr/MHHcvDT7k=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "d7c9e416b3de6ba3e06f07c553a2390ae14054fe"
+    }
+}

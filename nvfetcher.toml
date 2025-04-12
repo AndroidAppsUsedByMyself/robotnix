@@ -1,0 +1,19 @@
+[vendor_lindroid_22_1]
+src.git = "https://github.com/Linux-on-droid/vendor_lindroid.git"
+src.branch = "lindroid-22.1"
+fetch.github = "Linux-on-droid/vendor_lindroid"
+
+[vendor_lindroid_21]
+src.git = "https://github.com/Linux-on-droid/vendor_lindroid.git"
+src.branch = "lindroid-21"
+fetch.github = "Linux-on-droid/vendor_lindroid"
+
+[external_lxc]
+src.git = "https://github.com/Linux-on-droid/external_lxc.git"
+src.branch = "lindroid-21"
+fetch.github = "Linux-on-droid/external_lxc"
+
+[libhybris]
+src.git = "https://github.com/Linux-on-droid/libhybris.git"
+src.branch = "lindroid-21"
+fetch.github = "Linux-on-droid/libhybris"
