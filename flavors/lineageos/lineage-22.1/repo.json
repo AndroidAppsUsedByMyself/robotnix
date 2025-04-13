@@ -505,14 +505,14 @@
     "url": "https://github.com/LineageOS/android_device_qcom_sepolicy"
   },
   "device/qcom/sepolicy_vndr/legacy-um": {
-    "dateTime": 1743422212,
+    "dateTime": 1744409668,
     "groups": [
       "lahaina",
       "qcom"
     ],
-    "rev": "97f90d9f2dfc6913ef0074fd154438b9bf3ab34a",
+    "rev": "caf162224b46b1faec5c56f03f03f61d07343933",
     "revisionExpr": "lineage-22.1-legacy-um",
-    "sha256": "022qsksjixnb99vh9pkf4l0v0afq98z5gj7ljs3wssw6x0rhn2fp",
+    "sha256": "078cpgvsvdddjsp9s8w5lk9pr9wia82rg6pp7l5jkxi8jhll4jjh",
     "url": "https://github.com/LineageOS/android_device_qcom_sepolicy_vndr"
   },
   "device/qcom/sepolicy_vndr/sm8450": {
@@ -11230,33 +11230,33 @@
     "url": "https://github.com/LineageOS/contributors-cloud-generator"
   },
   "lineage/crowdin": {
-    "dateTime": 1743766597,
+    "dateTime": 1743766641,
     "groups": [
       "infra"
     ],
-    "rev": "19c235136ff409ab1bbd5d96bb37622ccd86d5a1",
+    "rev": "d51d733eff9e898aae914d07c2a4c13beca9b762",
     "revisionExpr": "main",
-    "sha256": "12rsddrjzrm9ry8yqf19yyfsh4qxvw63sdw82niw20kvx86w8y35",
+    "sha256": "0ylh3j2iz4z75g6kzspq6l7bl3np305163bp3m6bc0b3n3vnjjhm",
     "url": "https://github.com/LineageOS/cm_crowdin"
   },
   "lineage/hudson": {
-    "dateTime": 1743895842,
+    "dateTime": 1744500635,
     "groups": [
       "infra"
     ],
-    "rev": "04f08293262cc2983fb652b6bdf16844bd958642",
+    "rev": "ede96a2d69da30f94ab83588fa504dda584e4fb7",
     "revisionExpr": "main",
-    "sha256": "0vdvyb6cw5pr1i2fkj3n2iiqvs7yd4fcvv8j3w13pf90w9vkgdc1",
+    "sha256": "1znfsnvxs4hwzjqpc4j1kdciss60lh6lldz6n96v3c9158r71kc1",
     "url": "https://github.com/LineageOS/hudson"
   },
   "lineage/mirror": {
-    "dateTime": 1743544889,
+    "dateTime": 1744495282,
     "groups": [
       "infra"
     ],
-    "rev": "fc3f07dc7de0ff9da86222eac7bddd9ae9ddc7dc",
+    "rev": "a7d4d3848e6f0890a632676ebb6bd1d74fcb5fe1",
     "revisionExpr": "main",
-    "sha256": "1m178lz95ng9d4mqms8jcj13955g3d6nb9dg3n0ny2jz8flnapxy",
+    "sha256": "1h28181g26fcfrmnpasw7vp5hl240yzgzv6g4667mjjk0m7b2aln",
     "url": "https://github.com/LineageOS/mirror"
   },
   "lineage/scripts": {
@@ -11280,13 +11280,13 @@
     "url": "https://github.com/LineageOS/www"
   },
   "lineage/wiki": {
-    "dateTime": 1743660593,
+    "dateTime": 1744449415,
     "groups": [
       "infra"
     ],
-    "rev": "c91aaf5c98457d8462703cf67d263bca0aef7a45",
+    "rev": "c2efb6e3dbcb97c3cdb374f824fc518351f74d71",
     "revisionExpr": "main",
-    "sha256": "0g8q90p7al4ll1dl63lcmml8h4n0j7x214fibgi4siym8f6vi45k",
+    "sha256": "1hxc2fq8l9n48rwkln0028j7lbnhq2hm3fykn478a8d3wmyixw2v",
     "url": "https://github.com/LineageOS/lineage_wiki"
   },
   "packages/apps/Aperture": {
