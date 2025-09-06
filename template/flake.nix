@@ -4,45 +4,14 @@
   inputs.robotnix.url = "..";
 
   outputs = { self, robotnix }: {
-    # "dailydriver" is an arbitrary user-chosen name for this particular
-    # configuration.  Change it to something meaningful for you, perhaps just
-    # the device name if you only have one of this kind of device.
-    robotnixConfigurations."dailydriver" = robotnix.lib.robotnixSystem ({ config, pkgs, ... }: {
-      # These two are required options
-      device = "crosshatch";
-      flavor = "vanilla"; # "grapheneos" is another option
-
-      # buildDateTime is set by default by the flavor, and is updated when those flavors have new releases.
-      # If you make new changes to your build that you want to be pushed by the OTA updater, you should set this yourself.
-      # buildDateTime = 1584398664; # Use `date "+%s"` to get the current time
-
-      # signing.enable = true;
-      # signing.keyStorePath = "/var/secrets/android-keys"; # A _string_ of the path for the key store.
-
-      # Build with ccache
-      # ccache.enable = true;
-    });
-    robotnixConfigurations."pstar_lineageos" = robotnix.lib.robotnixSystem ({ config, pkgs, ... }: {
-      # These two are required options
-      device = "pstar";
-      flavor = "lineageos";
-
-      # buildDateTime is set by default by the flavor, and is updated when those flavors have new releases.
-      # If you make new changes to your build that you want to be pushed by the OTA updater, you should set this yourself.
-      # buildDateTime = 1584398664; # Use `date "+%s"` to get the current time
-
-      signing.enable = true;
-      signing.keyStorePath = "/etc/secrets/android-keys"; # A _string_ of the path for the key store.
-
-      # Build with ccache
-      ccache.enable = true;
-      lindroid.enable = true;
-      lindroid.systemVersion = "LineageOS_22.1";
-    });
+    # Declare your robotnix configurations. You can build the images and OTA
+    # zips via the `img` and `ota` attrs, for instance `nix build .#robotnixConfigurations.myLineageOS.ota`.
+    robotnixConfigurations."myLineageOS" = robotnix.lib.robotnixSystem ./lineageos.nix;
+    robotnixConfigurations."myGrapheneOS" = robotnix.lib.robotnixSystem ./grapheneos.nix;
+    robotnixConfigurations."pstar_lineageos" = robotnix.lib.robotnixSystem ./lineageos-pstar.nix;
 
     # This provides a convenient output which allows you to build the image by
     # simply running "nix build" on this flake.
-    # Build other outputs with (for example): "nix build .#robotnixConfigurations.dailydriver.ota"
-    defaultPackage.x86_64-linux = self.robotnixConfigurations."pstar_lineageos".img;
+    packages.x86_64-linux.default = self.robotnixConfigurations."pstar_lineageos".img;
   };
 }

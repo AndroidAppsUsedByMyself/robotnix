@@ -7,14 +7,14 @@ let
   inherit (lib) mkIf mkDefault mkEnableOption mkMerge;
 
   versions = {
-    release = "v0.3.6.244735"; # The GH release name and git tag
+    release = "v0.3.7.250932"; # The GH release name and git tag
     GmsCore = {
-      buildNumber = "244735012"; # The build number of the artefact in the release
-      hash = "sha256-UwxS8tGriqFwoV2e7Cr9E6zpQPEtdZ45F1Ro160kW1g=";
+      buildNumber = "250932014"; # The build number of the artefact in the release
+      hash = "sha256-Lab6aUY013YkLS5onAzev9bbDdzeFSp8O8IWIasKpoI=";
     };
     FakeStore = {
-      buildNumber = "84022612"; # The build number of the artefact in the release
-      hash = "sha256-e/r8c9RFa3Op+o8RDj116blAcVLbjI8CAsuw/U2l2+Q=";
+      buildNumber = "84022614"; # The build number of the artefact in the release
+      hash = "sha256-bNbPFG7L2pDNMTRpLzbbrq7F0uqVgONFPqWZIJ9nhFA=";
     };
   };
 
@@ -110,6 +110,8 @@ in
 
           # New with v0.3.1.240913
           "START_ACTIVITIES_FROM_BACKGROUND"
+
+          "INTERACT_ACROSS_USERS"
         ];
         defaultPermissions = [ "FAKE_PACKAGE_SIGNATURE" ];
         usesLibraries = [ "com.android.location.provider" ];
@@ -136,6 +138,9 @@ in
         privappPermissions = [
           "FAKE_PACKAGE_SIGNATURE"
           "CHECK_LICENSE"
+          "DELETE_PACKAGES"
+          "INTERACT_ACROSS_USERS"
+          "INSTALL_PACKAGES"
         ];
         defaultPermissions = [ "FAKE_PACKAGE_SIGNATURE" ];
         usesOptionalLibraries = [ "androidx.window.extensions" "androidx.window.sidecar" ];
